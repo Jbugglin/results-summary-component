@@ -1,0 +1,46 @@
+:root {
+
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+/* Generic styling */
+
+
+/* Mobile viewport */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100dvw;
+    height: 100vh;
+}
+
+.result {
+    background: linear-gradient(to top, blue, purple);
+    border-radius: 0rem 0rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+
+/* Desktop viewport */
+@media only screen and (min-width:1025px) {
+    
+}

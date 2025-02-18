@@ -5,7 +5,7 @@ fetch('./data.json')
         console.log(data);
         data.forEach(post => {
             // icon | category | Score
-            listE1.insertAdjacentHTML('beforeend', `<img src="${post.icon}" class="icon" alt="icon"></img>` + `<p class="category">${post.category}</p>` + `<p class="score">${post.score}/100 </p>`);
+            listE1.insertAdjacentHTML('beforeend', `<img src="${post.icon}" class="icon" alt="icon"></img>` + `<p class="category">${post.category}</p>` + `<p class="score"><strong>${post.score}</strong> / 100 </p>`);
         });
     })
     .catch((error) => console.error("error loading json file", error));
