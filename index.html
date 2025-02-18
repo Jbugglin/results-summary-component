@@ -9,29 +9,25 @@
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
     <main>
         <section class="result">
             <h1>Your Result</h1>
-            <div class="score">
-                <div id="calculated-score">
-                    76
-                </div>
-                <span class="resultScore">
+            <div class="calculated-score">
+                <h2>76</h2>
+                <span>
                     of 100
                 </span>
             </div>
-            <span>Great</span>
+            <h3>Great</h3>
             <p>You scored higher than 65% of the people who have taken these tests.</p>
         </section>
-        <div id="resultSection"></div>
+        <div id="resultSection">
+            <h3>Summary</h3>
+            <div id="score-category"></div>
+        </div>
+        <button>Continue</button>
     </main>
 <!-- 
   Your Result
