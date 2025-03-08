@@ -73,21 +73,25 @@ main {
 }
 
 .result h1 {
-    font-size: 1rem;
+    font-size: 0.875rem;
+    margin: 0.5rem 0rem;
     color: var(--neu-light-lavender);
     font-weight: var(--medium);
 }
 
 .result h3 {
     color: var(--neu-white);
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: var(--medium);
+    margin: 0.5rem 0rem 0.25rem;
 }
 
 .result p {
     color: var(--neu-light-lavender);
     font-weight: var(--lightweight);
-    font-size: 1rem;
+    font-size: 0.75rem;
+    width: 200px;
+    margin: 0.25rem 0rem 1.5rem;
 }
 .calculated-score {
     border-radius: 50%;
