@@ -132,10 +132,10 @@ main {
 .category {
     display: flex;
     align-items: center;
-    margin: 1rem 0rem;
+    margin: 0.75rem 0rem;
     border-radius: 0.625rem;
     padding: 1rem;
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 .left-side {
@@ -194,7 +194,7 @@ main {
 }
 
 button {
-    width: 75%;
+    width: 100%;
     padding: 1rem;
     border-radius: 2rem;
     border: none;
@@ -202,6 +202,11 @@ button {
     color: var(--neu-pale-blue);
     font-weight: 600;
     font-size: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+footer {
+    display: none;
 }
 
 .attribution { 
