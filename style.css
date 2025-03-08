@@ -52,11 +52,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--neu-pale-blue);
 }
 
 main {
     width: 100dvw;
     height: 100dvh;
+    max-width: 375px;
+    background-color: var(--neu-white);
 }
 
 .result {
@@ -219,6 +222,27 @@ footer {
 
 
 /* Desktop viewport */
-@media only screen and (min-width:1025px) {
-    
+@media only screen and (min-width:426px) {
+    main {
+        max-width: 700px;
+        height: 500px;
+        display: flex;
+    }
+
+    section.result, #resultSection {
+        height: 100%;
+        width: 50%;
+    }
+
+    main, section.result {
+        border-radius: 2rem;
+    }
+
+    #resultSection {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
 }
