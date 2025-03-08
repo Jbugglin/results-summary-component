@@ -74,7 +74,7 @@ main {
 
 .result h1 {
     font-size: 0.875rem;
-    margin: 0.5rem 0rem;
+    margin: 1rem 0rem;
     color: var(--neu-light-lavender);
     font-weight: var(--medium);
 }
@@ -83,20 +83,20 @@ main {
     color: var(--neu-white);
     font-size: 1.125rem;
     font-weight: var(--medium);
-    margin: 0.5rem 0rem 0.25rem;
+    margin: 1rem 0rem 0.25rem;
 }
 
 .result p {
     color: var(--neu-light-lavender);
     font-weight: var(--lightweight);
-    font-size: 0.75rem;
-    width: 200px;
+    font-size: 0.875rem;
+    width: 250px;
     margin: 0.25rem 0rem 1.5rem;
 }
 .calculated-score {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ main {
 }
 
 .calculated-score h2 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .calculated-score p {
@@ -122,7 +122,7 @@ main {
 
 #resultSection {
     padding: 0rem 2rem;
-    margin: 1.5rem 0rem 1.5rem;
+    margin: 1rem 0rem 1rem;
 }
 
 #resultSection h3 {
